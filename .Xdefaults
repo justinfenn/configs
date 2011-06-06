@@ -1,17 +1,8 @@
-! The following used for semi-transparent terminal on "embedded" in the desktop
-!URxvt*transparent: true
 URxvt*scrollBar: false
-!URxvt*borderLess: true
 URxvt*geometry: 110x50
-!!URxvt*background: Black
-!URxvt*foreground: !DDCCCC
 
 ! color4 from .Xresources
 URxvt*foreground: #6d9cbe
-!URxvt*fading: 50
-!URxvt*fadeColor: Black
-!URxvt*tintColor: !DDDDDD
-!URxvt*blurRadius: 5
 
 URxvt*font: xft:inconsolata:antialias=true:hinting=true
 
