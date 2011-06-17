@@ -8,6 +8,9 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set autoindent
+set nocompatible
+
+filetype plugin indent on
 
 " Solarized color scheme
 let g:solarized_termcolors=16
