@@ -1,18 +1,32 @@
 syntax on
 
-set nu
-set incsearch
-set hlsearch
+set number
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
-set smartindent
 set autoindent
 set nocompatible
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set splitright
+set backspace=indent,eol,start
 
-filetype plugin indent on
+"filetype indent on
+"filetype plugin indent on
 
-" Solarized color scheme
-let g:solarized_termcolors=16
-set background=dark
 colorscheme railscasts
+
+" Look in current directory and upwards for ctags
+set tags=tags;/
+
+" Text bubbling with indentation
+" Single lines
+nmap <A-Up> ddkP==
+nmap <A-Down> ddp==
+
+" Multiple lines
+vmap <A-Up> xkP`[V`]=`[V`]
+vmap <A-Down> xp`[V`]=`[V`]
