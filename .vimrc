@@ -16,7 +16,7 @@ set backspace=indent,eol,start
 "filetype indent on
 "filetype plugin indent on
 
-colorscheme railscasts
+colorscheme solarized
 
 " Look in current directory and upwards for ctags
 set tags=tags;/
