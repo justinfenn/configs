@@ -13,7 +13,7 @@ set smartcase
 set splitright
 set backspace=indent,eol,start
 
-"filetype indent on
+filetype indent on
 "filetype plugin indent on
 
 colorscheme solarized
