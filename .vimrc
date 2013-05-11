@@ -16,7 +16,7 @@ set backspace=indent,eol,start
 filetype indent on
 "filetype plugin indent on
 
-colorscheme solarized
+colorscheme slate
 
 " Look in current directory and upwards for ctags
 set tags=tags;/
