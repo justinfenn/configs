@@ -1,3 +1,7 @@
+if filereadable($HOME . "/.vim/vundle.vim")
+  source $HOME/.vim/vundle.vim
+endif
+
 syntax on
 
 set number
