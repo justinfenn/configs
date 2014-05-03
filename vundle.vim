@@ -6,10 +6,10 @@ call vundle#rc()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " my bundles
-Bundle 'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 
 filetype plugin indent on     " required!
 "
