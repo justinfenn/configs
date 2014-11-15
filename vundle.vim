@@ -9,7 +9,7 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 
 " my bundles
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " go plugins
 Plugin 'fatih/vim-go'
