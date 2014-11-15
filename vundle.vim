@@ -11,6 +11,9 @@ Plugin 'gmarik/vundle'
 " my bundles
 Plugin 'kien/ctrlp.vim'
 
+" go plugins
+Plugin 'fatih/vim-go'
+
 filetype plugin indent on     " required!
 "
 " Brief help
