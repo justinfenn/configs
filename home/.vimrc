@@ -1,5 +1,5 @@
-if filereadable(resolve(expand("$HOME/.vim/vundle.vim")))
-  source $HOME/.vim/vundle.vim
+if filereadable(resolve(expand("$HOME/.vim/plug.vim")))
+  source $HOME/.vim/plug.vim
 endif
 
 syntax on
