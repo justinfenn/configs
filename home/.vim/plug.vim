@@ -11,6 +11,8 @@ call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 
+Plug 'morhetz/gruvbox'
+
 Plug 'ctrlpvim/ctrlp.vim'
 
 Plug 'fatih/vim-go'
