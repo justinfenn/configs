@@ -1,0 +1,14 @@
+[user]
+  name = Justin Fenn
+  email = buggito@gmail.com
+[core]
+  pager = delta
+[pull]
+  ff = only
+[commit]
+  verbose = true
+
+# git-delta diff viewer
+[delta]
+  side-by-side = true
+  syntax-theme = gruvbox-dark
