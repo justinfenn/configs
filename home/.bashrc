@@ -12,7 +12,8 @@ set -o vi
 # append to the history file, don't overwrite it
 shopt -s histappend
 
-# save more history
-export HISTSIZE=10000
+# for recursive glob matching
+shopt -s globstar
 
-export EDITOR=vim
+# extra local configuration
+[[ -f ~/.config/bash/bashrc.local ]] && source ~/.config/bash/bashrc.local
