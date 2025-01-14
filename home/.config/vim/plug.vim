@@ -1,13 +1,18 @@
 " Automatic installation of vim-plug
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+if empty(glob('~/.cache/vim/runtime/autoload/plug.vim'))
+  silent !curl -fLo ~/.cache/vim/runtime/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
+
+" This is required to make vim recognize vim-plug in the custom directory
+" All of the plugin stuff used to be in ~/.vim which is a location vim checks
+" by default, so this wasn't needed
+set runtimepath^=~/.cache/vim/runtime
 
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.cache/vim/runtime/plugged')
 
 " Make sure you use single quotes
 

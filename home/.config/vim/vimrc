@@ -1,6 +1,4 @@
-if filereadable(resolve(expand("$HOME/.vim/plug.vim")))
-  source $HOME/.vim/plug.vim
-endif
+source $HOME/.config/vim/plug.vim
 
 syntax on
 
@@ -17,6 +15,7 @@ set ignorecase
 set smartcase
 set splitright
 set backspace=indent,eol,start
+set viminfofile=~/.cache/vim/viminfo
 
 filetype indent on
 "filetype plugin indent on
